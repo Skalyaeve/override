@@ -7,7 +7,7 @@
 >
 > *Vous rencontrerez probablement des difficultés durant ce projet : il est essentiel que vous les surmontiez par vous-même. Votre approche des différentes épreuves doit venir **UNIQUEMENT** de vous. L'objectif est de développer une certaine logique et d'acquérir des réflexes qui vous seront utiles par la suite. Avant de demander de l'aide, assurez-vous d'avoir vraiment exploré toutes les possibilités.*
 
-## Summary
+## Checklist
 - [x] [00](https://github.com/Skalyaeve/override/tree/main/00) - RevMe (1)
 - [x] [01](https://github.com/Skalyaeve/override/tree/main/01) - Buffer overflow (1)
 - [x] [02](https://github.com/Skalyaeve/override/tree/main/02) - Format string (1)
