@@ -1,4 +1,4 @@
-# 02 - Format string 1
+# 02 - Format string (1)
 
 - On se connecte en tant que level02:
 ```

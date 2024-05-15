@@ -12,9 +12,9 @@
 - [x] [01](https://github.com/Skalyaeve/override/tree/main/01) - Buffer overflow (1)
 - [x] [02](https://github.com/Skalyaeve/override/tree/main/02) - Format string (1)
 - [x] [03](https://github.com/Skalyaeve/override/tree/main/03) - RevMe (2)
-- [x] [04](https://github.com/Skalyaeve/override/tree/main/04) - Shellcoding (1)
-- [ ] 05 - `work in progress`
-- [ ] 06 - `work in progress`
-- [ ] 07 - `work in progress`
-- [ ] 08 - `work in progress`
-- [ ] 09 - `work in progress`
+- [x] [04](https://github.com/Skalyaeve/override/tree/main/04) - Shellcoding
+- [x] [05](https://github.com/Skalyaeve/override/tree/main/05) - Format string (2)
+- [x] [06](https://github.com/Skalyaeve/override/tree/main/06) - RevMe (3)
+- [x] [07](https://github.com/Skalyaeve/override/tree/main/07) - Int overflow
+- [x] [08](https://github.com/Skalyaeve/override/tree/main/08) - RevMe (4)
+- [x] [09](https://github.com/Skalyaeve/override/tree/main/09) - Buffer overflow (2)

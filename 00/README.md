@@ -1,4 +1,4 @@
-# 00 - Trouve l'input 1
+# 00 - RevMe (1)
 
 - On se connecte en tant que level00:
 ```
@@ -44,8 +44,8 @@ Dump of assembler code for function main:
    0x0804850d <+121>:   movl   $0x8048651,(%esp)
    0x08048514 <+128>:   call   0x8048390 <puts@plt>
    0x08048519 <+133>:   mov    $0x1,%eax
-   0x0804851e <+138>:   leave  
-   0x0804851f <+139>:   ret    
+   0x0804851e <+138>:   leave
+   0x0804851f <+139>:   ret
 End of assembler dump.
 ```
 
@@ -79,7 +79,7 @@ End of assembler dump.
 
 - Du coup:
 ```
-level00@OverRide:~$ ./level00 
+level00@OverRide:~$ ./level00
 ***********************************
 *            -Level00 -           *
 ***********************************
